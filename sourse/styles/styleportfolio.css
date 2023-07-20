@@ -4,7 +4,7 @@ body {
 
   background-repeat: no-repeat;
   background-position: center top;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
 }
 /* лоудер */
@@ -275,11 +275,7 @@ hr {
  	opacity: 1;
 }
 /* наверх */
-.error {
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
-}
+
 /* section */
 
 
@@ -293,7 +289,6 @@ hr {
     width: 1rem;
   }
 }
-
 
 
 
@@ -370,9 +365,7 @@ hr {
   .card {
     width: auto;
   }
-  .error {
-    width: 400px;
-  }
+  
 }
 
 
