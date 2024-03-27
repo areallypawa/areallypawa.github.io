@@ -6,5 +6,5 @@
 The first more or less serious project in which I practice JS, HTML and CSS. Radio switch filters are used.
 > Первый более-менее серьезный проект в котором я практикую  JS, HTML и CSS. Используются фильтры Radio - переключатели.
 
-> [!NOTE]
+> [!NOTE] 
 > Сделан посто для души
