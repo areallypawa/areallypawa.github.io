@@ -4,7 +4,10 @@
 
 # :bookmark_tabs: My online portfolio! | Моё онлайн портфолио!  
 The first more or less serious project in which I practice JS, HTML and CSS. Radio switch filters are used.
+
+A little later: Added adding cards using JSON
 > Первый более-менее серьезный проект в котором я практикую  JS, HTML и CSS. Используются фильтры Radio - переключатели.
+> Чуть позже: Добавил добавление карточек при помощи JSON
 
 > [!NOTE] 
 > Сделан посто для души
