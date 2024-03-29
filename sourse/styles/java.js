@@ -6,6 +6,39 @@ $(window).on("load", function() {
 
 // лоудер
 
+
+
+
+// Парсим файл с карточками
+fetch("../sourse/files/JSON/card.json")
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (data) {
+        localStorage.setItem("cards", JSON.stringify(data));
+        console.log(1)
+    });
+
+const cardcontainerStor = JSON.parse(localStorage.getItem("cards") || "[]"); //все категории
+
+if (cardcontainerStor) {
+  let CardsContainer = document.getElementById('cardcontainer')
+  cardcontainerStor.forEach((el) => {
+    const { id, data_content1, data_content2, scr, name, } = el
+
+    const NewCard = document.createElement('div')
+
+    NewCard.className = 'col';
+    NewCard.setAttribute('data-container',`${ data_content1 }`);
+    NewCard.setAttribute('data-container2',`${ data_content2 }`);
+
+    NewCard.innerHTML = `<div class="card"><div class="card__top"><div class="card__image" data-modal-btn="my_modal${ id }" id="main"><img src="${ scr }" alt=""></div><div class="modal" data-modal-window="my_modal${ id }"><div class="modal_content"><img class="modal-img" src="${ scr }" alt=""></div></div></div><div class="card__bottom"><h6 class="text-center">${ name }</h6><a href="${ scr }" class="mt-auto" style="text-decoration: none;"download=""><button class="card__add">Скачать <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"fill="currentColor" class="bi bi-download" viewBox="0 0 16 16"><pathd="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" /><pathd="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" /></svg></button></a></div></div>`
+
+    CardsContainer.appendChild(NewCard);
+  });
+}
+
+
 //Модальное окно 
 let btns = document.querySelectorAll("*[data-modal-btn]");
 
