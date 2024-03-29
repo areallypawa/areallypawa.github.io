@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Благодарственное письмо за активную гражданскую позицию" ,
+        "data_content1": "main" ,
+        "data_content2": "8" ,
+        "scr": "../sourse/img/паша грамоты/Blag-pismo.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Географический диктант" ,
+        "data_content1": "Other" ,
+        "data_content2": "8" ,
+        "scr": "../sourse/img/паша грамоты/Geograf-dictant.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Гранит науки по Естественным наукам" ,
+        "data_content1": "Fizika" ,
+        "data_content2": "9" ,
+        "scr": "../sourse/img/паша грамоты/Granit-Nayki-fizika.png"
+    },
+    {
+        "id": 4,
+        "name": "Благодарственное письмо за активную гражданскую позицию" ,
+        "data_content1": "Other" ,
+        "data_content2": "9" ,
+        "scr": "../sourse/img/паша грамоты/Granit-Nayki-Vse.png"
+    },
+    {
+        "id": 5,
+        "name": "Сертификат об окончании 1 модуля Master of Python" ,
+        "data_content1": "Programm" ,
+        "data_content2": "9" ,
+        "scr": "../sourse/img/паша грамоты/Master-of-python1-MEO.png"
+    },
+    {
+        "id": 6,
+        "name": "Сертификат об окончании 2 модуля Master of Python" ,
+        "data_content1": "Programm" ,
+        "data_content2": "9" ,
+        "scr": "../sourse/img/паша грамоты/Master-of-python2-MEO.png"
+    },
+    {
+        "id": 7,
+        "name": "Сертификат об окончании 3 модуля Master of Python" ,
+        "data_content1": "Programm" ,
+        "data_content2": "9" ,
+        "scr": "../sourse/img/паша грамоты/Master-of-python3-MEO.png"
+    },
+    {
+        "id": 8,
+        "name": "Сертификат об окончании 4 модуля Master of Python" ,
+        "data_content1": "Programm" ,
+        "data_content2": "9" ,
+        "scr": "../sourse/img/паша грамоты/Master-of-python4-MEO.png"
+    },
+    {
+        "id": 9,
+        "name": "Сертификат об окончании Курса Master of Python" ,
+        "data_content1": "Programm" ,
+        "data_content2": "9" ,
+        "scr": "../sourse/img/паша грамоты/Master-of-python-MEO-END.png"
+    },
+    {
+        "id": 10,
+        "name": "Диплом олимпис Физика&Математика" ,
+        "data_content1": "Fizika" ,
+        "data_content2": "8" ,
+        "scr": "../sourse/img/паша грамоты/Olimp-Fiz-Mat.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "Диплом олимпис История&Английский" ,
+        "data_content1": "Other" ,
+        "data_content2": "8" ,
+        "scr": "../sourse/img/паша грамоты/Olimp-His-Eng.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "Диплом олимпис Русский&География" ,
+        "data_content1": "Other" ,
+        "data_content2": "8" ,
+        "scr": "../sourse/img/паша грамоты/Olimp-Rus-Geo.jpeg"
+    },
+    {
+        "id": 13,
+        "name": "Шаг в будущее География" ,
+        "data_content1": "main" ,
+        "data_content2": "7" ,
+        "scr": "../sourse/img/паша грамоты/Shag-v-bydychee-Geo.jpeg"
+    },
+    {
+        "id": 14,
+        "name": "Шаг в будущее История" ,
+        "data_content1": "main" ,
+        "data_content2": "8" ,
+        "scr": "../sourse/img/паша грамоты/Shag-v-bydychee-history.jpeg"
+    },
+    {
+        "id": 15,
+        "name": "Ученик года - Коммуникатор года" ,
+        "data_content1": "main" ,
+        "data_content2": "8" ,
+        "scr": "../sourse/img/паша грамоты/Uchenik-goda.jpeg"
+    }
+]
